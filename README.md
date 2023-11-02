@@ -27,4 +27,6 @@
 
 - Estadísticas y análisis: Proporciona a los creadores de proyectos datos sobre el rendimiento de sus campañas, como el número de visitas, el porcentaje de financiamiento, etc.  
 
-M- étodos de notificación: Los usuarios deben poder recibir notificaciones por correo electrónico o en la plataforma para mantenerse al tanto de las actualizaciones de proyectos, recordatorios de campañas y otras notificaciones importantes  
+- Métodos de notificación: Los usuarios deben poder recibir notificaciones por correo electrónico o en la plataforma para mantenerse al tanto de las actualizaciones de proyectos, recordatorios de campañas y otras notificaciones importantes  
+
+- Gama de colores de la web.  
