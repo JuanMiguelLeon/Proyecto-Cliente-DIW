@@ -8,6 +8,9 @@
 - [Funcionalidad JavaScript (40 % en DWEC)](#funcionalidad-javascript-40--en-dwec)
 - [Memoria (40 %)](#memoria-40-calificación)
 - [Fases del proyecto](#fases-del-proyecto)
+  - [Analisis](#analisis)
+  - [Diseño](#diseño)
+  - [Implementacion](#implementación)
 - [Defensa del proyecto (20 %)](#defensa-del-proyecto-20)
 
 
