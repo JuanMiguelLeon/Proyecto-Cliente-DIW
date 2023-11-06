@@ -102,6 +102,24 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 3. Objetivos. Enumera los objetivos del proyecto, incluyendo lo que se espera lograr con la implementación de CSS, JavaScript, guía de color, ...
 4. Justificación: Explica por qué es importante abordar este proyecto. ¿Cuál es la necesidad o el problema que se está resolviendo?
 5. Descripción del Proyecto: Describe el proyecto en detalle, incluyendo su alcance, funcionalidades y características clave.
-6. Fases del proyecto: en este apartado se concretarán las fases necesarias para llevarlo a cabo, y cumplir con los objetivos que se establezcan, teniendo en cuenta los recursos necesarios.
-7.1. hola 
-6.1 Fases del proyecto. El desarrollo de este proyecto se llevará a cabo en 3 fases: análisis, diseño e implementación. Se describirá el proceso realizado en cada fase, así como los tiempos estimados y los tiempos reales.
+6. Fases del proyecto: en este apartado se concretarán las fases necesarias para llevarlo a cabo, y cumplir con los requisitos que se establezcan, teniendo en cuenta los recursos necesarios. El desarrollo de este proyecto se llevará a cabo en 3 fases: análisis, diseño e implementación. Se describirá el proceso realizado en cada fase, así como los tiempos estimados y los tiempos reales. A las fases del proyecto
+7. CSS: Explica cómo se utiliza CSS en el proyecto. Razona las decisiones de diseño de CSS, como la disposición, los estilos, la responsividad y los efectos.
+8. JavaScript: Describe la función de JavaScript en el proyecto. Detalla cómo se utilizan las interacciones y las funcionalidades específicas de JavaScript.
+9. Wireframe: Explica cómo se creó el prototipo y cómo se utilizó para visualizar y probar el diseño de la interfaz. Analiza los cambios que se han producido en la versión final con respecto a las versiones del prototipo realizado. Incorpora los wireframe.
+10. Guía de Color: Describe el proceso de desarrollo, incluyendo las herramientas y tecnologías utilizadas. Proporciona detalles sobre los desafíos enfrentados durante la implementación y cómo se resolvieron.
+11. Anexos: Si es relevante, incluye anexos con ejemplos visuales, capturas de pantalla, código fuente o cualquier otro material de apoyo. Estas páginas no computarán sobre el total mínimo exigido.
+
+## Fases del proyecto
+### Analisis
+- Funcionales: aquellos que determinan qué tiene que hacer el proyecto. Por ejemplo: en un call center atender a 10 clientes a la vez, dar respuesta satisfactoria en un tiempo menor de 30 minutos, tiempo de espera en llamadas inferior a un minuto...
+- No funcionales: propiedades o cualidades que el proyecto debe cumplir. Por ejemplo: diseño atractivo, incremento de ganancias, aumento de la fiabilidad, mejora del tiempo de respuesta..
+### Diseño
+- Describir cómo realizar cada uno de los requisitos establecidos en la fase anterior.
+- Definir la estructura de la aplicación, el diseño de los componentes.
+### Implementación
+- Partiendo del diseño, en esta fase se construye el proyecto.
+
+### Defensa del proyecto (20%):
+1. Formato: Diapositivas, presentación en Canvas, o cualquier otra herramienta previa consulta y verificación por correo electrónico a la profesora del módulo.
+2. Tiempo: 25 minutos.
+3. Se debe explicar el desarrollo realizado y una síntesis de la memoria del proyecto.
