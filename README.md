@@ -30,3 +30,12 @@
 - Métodos de notificación: Los usuarios deben poder recibir notificaciones por correo electrónico o en la plataforma para mantenerse al tanto de las actualizaciones de proyectos, recordatorios de campañas y otras notificaciones importantes  
 
 - Gama de colores de la web.  
+
+## Requisitos de la práctica
+### General
+-El desarrollo de este proyecto permitirá poner en práctica tanto el contenido del 
+módulo Desarrollo Web Entorno Cliente (en adelante, DWEC), como el de Diseño 
+de Interfaces Web (en adelante, DIW), por lo que se evaluarán en base a cada 
+uno de los módulos, pudiendo obtenerse 2 calificaciones distintas. La parte 
+relativa a la funcionalidad corresponde con DWEC, mientras que la parte relativa 
+al diseño a DIW.
