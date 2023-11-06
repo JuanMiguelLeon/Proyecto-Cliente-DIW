@@ -1,6 +1,6 @@
 # Proyecto-Cliente-DIW
 
-## - Hola
+##- Hola
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
 
