@@ -1,3 +1,7 @@
+- Tener preparado en dos pestañas antes de preguntar.
+[Documento del proyecto en GitHub](https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW/tree/main#dise%C3%B1o-y-ui-en-memoria-de-trabajo-y-desarrollo-40--en-diw)
+[Edicion de este mismo documento](https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW/edit/main/Preguntas%20para%20Diana%20sobre%20proyecto.md)
+
 ## Preguntas proyecto
 ### Wireframe  
 1. Número de Páginas o Pantallas: Crea al menos 3 wireframes que representen diferentes páginas o pantallas de la interfaz. Opcional: se puede incluir un prototipo visual completo del sitio.  
@@ -28,4 +32,4 @@
 ### Fases del proyecto  
 Pregunta: **¿Donde incluirlas? ¿Al final? ¿Algunas partes no han sido explicadas previamente?**  
   - Respuesta: *Empy*  
- 
+
