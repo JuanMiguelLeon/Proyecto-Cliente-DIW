@@ -1,4 +1,7 @@
 # Proyecto-Cliente-DIW
+
+## - Hola
+
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
 
 - Página de inicio: La página de inicio debe presentar una descripción general de la plataforma, destacar proyectos destacados o populares, y proporcionar una llamada a la acción para que los visitantes exploren proyectos o se registren.  
