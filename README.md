@@ -1,6 +1,7 @@
 # Proyecto-Cliente-DIW
 
-- [Contenido del proyecto](#Requisitos-de-la-práctica)
+- [Requisitos de la práctica](#Requisitos-de-la-práctica)
+- [Objetivos del Proyecto](#Objetivos-del-Proyecto)
 
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
