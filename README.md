@@ -1,6 +1,6 @@
 # Proyecto-Cliente-DIW
 
-[Contenido del proyecto](#Requisitos-de-la-práctica)
+- [Contenido del proyecto](#Requisitos-de-la-práctica)
 
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
