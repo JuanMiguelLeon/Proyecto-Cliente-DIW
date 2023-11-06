@@ -97,5 +97,5 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
   - Eventos (en todas las páginas del sitio)
 
 ### Memoria (40% calificación):
-1 Formato: Extensión mínima 40 páginas. Arial o Times New Roman 11. Espaciado 1,2
-1 Introducción: Proporciona una introducción al proyecto, su objetivo y su contexto.
+1. Formato: Extensión mínima 40 páginas. Arial o Times New Roman 11. Espaciado 1,2  
+1. Introducción: Proporciona una introducción al proyecto, su objetivo y su contexto.  
