@@ -67,7 +67,7 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 - Navegación: Describe cómo se aplicará la guía de color y tipografía en la navegación, incluyendo menús y barras de navegación...
 
 ### Diseño y UI (En memoria de trabajo y desarrollo): (40 % en DIW)
-- **Diseño de interfaz de usuario** (UI): Define el diseño de tu sitio o aplicación web. El sitio web debe presentar un diseño de calidad, coherente con el sito web desarrollado.
+- Diseño de interfaz de usuario (UI): Define el diseño de tu sitio o aplicación web. El sitio web debe presentar un diseño de calidad, coherente con el sito web desarrollado.
 - Estilos CSS: Crea estilos CSS para dar formato y diseño a tu interfaz de usuario.
 - Responsive Design: Asegúrate de que tu diseño sea respondido y se adapte a diferentes tamaños de pantalla.
 - Número de Pantallas: Diseña al menos 3 pantallas diferentes que representen secciones o vistas clave de su interfaz.
@@ -83,3 +83,19 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 - Documenta el código, incluyendo comentarios para que otros desarrolladores puedan entenderlo.
 - Páginas mínimas (3): Página central, Sobre ti (nosotros, contacto), página secundaria, por ejemplo.
 - Requisitos de implementación: Se utilizarán eventos y DOM. En la memoria justificativa se deberá explicar de forma adecuada el uso de este tipo de elementos. Se deben utilizar al menos los siguientes ítem:
+  - getElementById()
+  - getElementsByClassName()
+  - getElementsByTagName()
+  - querySelector/querySelectorAll()
+  - textContent
+  - innerHTML
+  - value
+  - style (opcional)
+  - src (opcional)
+  - Checked o RadioButton. Selección de opciones
+  - Menú desplegable
+  - Eventos (en todas las páginas del sitio)
+
+### Memoria (40% calificación):
+1 Formato: Extensión mínima 40 páginas. Arial o Times New Roman 11. Espaciado 1,2
+1 Introducción: Proporciona una introducción al proyecto, su objetivo y su contexto.
