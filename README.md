@@ -1,7 +1,7 @@
 # Proyecto-Cliente-DIW
 
 - [Requisitos de la práctica](#Requisitos-de-la-práctica)
-- [Objetivos del Proyecto](#Objetivos-del-Proyecto)
+- [Objetivos del Proyecto](##objetivos-del-proyecto---en-memoria-de-trabajo)
 - [Wireframe](#wireframe)
 - [Guia de color y estilos](#Guia-de-color-y-estilos)
 - [Diseño y UI (40 % en DIW)](#Diseño-y-UI)
