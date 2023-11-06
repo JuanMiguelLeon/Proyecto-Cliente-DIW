@@ -1,4 +1,4 @@
-- Tener preparado en dos pestañas antes de preguntar.  
+- Tener preparado en dos pestañas aparte antes de preguntar.  
 [Documento del proyecto en GitHub](https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW/tree/main#dise%C3%B1o-y-ui-en-memoria-de-trabajo-y-desarrollo-40--en-diw)  
 [Edicion de este mismo documento](https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW/edit/main/Preguntas%20para%20Diana%20sobre%20proyecto.md)  
 
