@@ -114,7 +114,7 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 - Funcionales: aquellos que determinan qué tiene que hacer el proyecto. Por ejemplo: en un call center atender a 10 clientes a la vez, dar respuesta satisfactoria en un tiempo menor de 30 minutos, tiempo de espera en llamadas inferior a un minuto...
 - No funcionales: propiedades o cualidades que el proyecto debe cumplir. Por ejemplo: diseño atractivo, incremento de ganancias, aumento de la fiabilidad, mejora del tiempo de respuesta..
 ### Diseño
-- Describir cómo realizar cada uno de los requisitos establecidos en la fase anterior.
+- Describir <u>cómo realizar cada uno de los requisitos establecidos en la fase anterior</u>.
 - Definir la estructura de la aplicación, el diseño de los componentes.
 ### Implementación
 - Partiendo del diseño, en esta fase se construye el proyecto.
