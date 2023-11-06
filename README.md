@@ -45,7 +45,7 @@
   - Los ficheros .pdf con los wireframe
 - Es imprescindible obtener más de un 5 cada una de la partes del proyecto (Proyecto (40%) + Memoria (40%) + Defensa (20%)) para poder hacer media con el resto de secciones del proyecto.
 - Se debe explicar todo el proceso en la memoria, justificando conveniente cada decisión tomada. Las memorias que solo utilicen imágenes o código, o carezcan de suficiente justificación serán consideradas suspendidas, y por lo tanto, el 
-proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad tanto en el diseño, funcionalidad y contenido.**
+proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad tanto en el diseño, funcionalidad y contenido.
 
 ### Objetivos del Proyecto - (En memoria de trabajo):
 - Define claramente el propósito y los objetivos del proyecto. ¿Qué problema o necesidad está resolviendo tu proyecto? ¿Cuál es la audiencia objetivo?
@@ -103,4 +103,4 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 4. Justificación: Explica por qué es importante abordar este proyecto. ¿Cuál es la necesidad o el problema que se está resolviendo?
 5. Descripción del Proyecto: Describe el proyecto en detalle, incluyendo su alcance, funcionalidades y características clave.
 6. Fases del proyecto: en este apartado se concretarán las fases necesarias para llevarlo a cabo, y cumplir con los objetivos que se establezcan, teniendo en cuenta los recursos necesarios.
-6.1.  Fases del proyecto. El desarrollo de este proyecto se llevará a cabo en 3 fases: análisis, diseño e implementación. Se describirá el proceso realizado en cada fase, así como los tiempos estimados y los tiempos reales.
+6.1 Fases del proyecto. El desarrollo de este proyecto se llevará a cabo en 3 fases: análisis, diseño e implementación. Se describirá el proceso realizado en cada fase, así como los tiempos estimados y los tiempos reales.
