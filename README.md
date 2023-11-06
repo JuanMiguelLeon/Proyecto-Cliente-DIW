@@ -39,3 +39,10 @@ de Interfaces Web (en adelante, DIW), por lo que se evaluarán en base a cada
 uno de los módulos, pudiendo obtenerse 2 calificaciones distintas. La parte 
 relativa a la funcionalidad corresponde con DWEC, mientras que la parte relativa 
 al diseño a DIW.
+- Existen secciones comunes a ambas calificaciones, como los obje0vos y el
+wireframe. El resto de la calificación corresponde a la parte específica por
+módulo.
+- El proyecto puede realizarse de forma individual o por parejas. Los grupos e integrantes deben comunicar la formación final de su grupo por correo electrónico a dgarciamiguel@educa.madrid.org antes del 4 de noviembre de 
+2023.
+- Fecha máxima de subida a la plataforma (se entregará una copia en cada módulo): 29 de noviembre a las 17:50
+-
