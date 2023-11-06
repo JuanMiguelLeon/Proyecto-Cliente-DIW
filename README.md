@@ -1,7 +1,7 @@
 # Proyecto-Cliente-DIW
 
 - [Requisitos de la práctica](#Requisitos-de-la-práctica)
-- [Objetivos del Proyecto - (En memoria de trabajo)](##Objetivos-del-Proyecto)
+- [Objetivos del Proyecto - (En memoria de trabajo)](#Objetivos-del-Proyecto)
 - [Wireframe](#wireframe)
 - [Guia de color y estilos](#Guia-de-color-y-estilos)
 - [Diseño y UI (40 % en DIW)](#Diseño-y-UI)
@@ -59,7 +59,7 @@
 - Se debe explicar todo el proceso en la memoria, justificando conveniente cada decisión tomada. Las memorias que solo utilicen imágenes o código, o carezcan de suficiente justificación serán consideradas suspendidas, y por lo tanto, el 
 proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad tanto en el diseño, funcionalidad y contenido.
 
-### Objetivos del Proyecto - (En memoria de trabajo)
+## Objetivos del Proyecto - (En memoria de trabajo)
 - Define claramente el propósito y los objetivos del proyecto. ¿Qué problema o necesidad está resolviendo tu proyecto? ¿Cuál es la audiencia objetivo?
 - Elija un tema o concepto específico para el diseño del prototipo.
 - Defina claramente el público objetivo al que se dirige el diseño.
