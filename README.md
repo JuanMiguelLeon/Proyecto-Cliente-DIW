@@ -2,13 +2,13 @@
 
 - [Requisitos de la práctica](#Requisitos-de-la-práctica)
 - [Objetivos del Proyecto](#objetivos-del-proyecto---en-memoria-de-trabajo)
-- [Wireframe](#wireframe)
-- [Guia de color y estilos](#Guia-de-color-y-estilos)
-- [Diseño y UI (40 % en DIW)](#Diseño-y-UI)
-- [Funcionalidad JavaScript (40 % en DWEC)](#Funcionalidad-Javascript)
-- [Memoria (40 %)](#Memoria)
-- [Fases del proyecto](#Fases-del-proyecto)
-- [Defensa del proyecto (20 %)](#Defensa-del-proyecto-(20%))
+- [Wireframe](#wireframe---en-memoria-de-trabajo)
+- [Guia de color y estilos](#guía-de-color-y-estilos-en-memoria-de-trabajo)
+- [Diseño y UI (40 % en DIW)](#diseño-y-ui-en-memoria-de-trabajo-y-desarrollo-40--en-diw)
+- [Funcionalidad JavaScript (40 % en DWEC)](#funcionalidad-javascript-40--en-dwec)
+- [Memoria (40 %)](#memoria-40-calificación)
+- [Fases del proyecto](#fases-del-proyecto)
+- [Defensa del proyecto (20 %)](#defensa-del-proyecto-20)
 
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
