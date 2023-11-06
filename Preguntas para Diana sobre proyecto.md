@@ -6,5 +6,3 @@
 1. Número de Pantallas: Diseña al menos 3 pantallas diferentes que representen secciones o vistas clave de su interfaz.
 2. Propuesta de Contenido: Incorporación de interacciones de usuario para la alteración del estilo
 
-
-![michi](https://cdn.iconscout.com/icon/premium/png-256-thumb/online-check-4401422-3648119.png?f=webp)
