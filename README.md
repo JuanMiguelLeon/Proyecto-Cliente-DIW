@@ -67,7 +67,7 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 - Navegación: Describe cómo se aplicará la guía de color y tipografía en la navegación, incluyendo menús y barras de navegación...
 
 ### Diseño y UI (En memoria de trabajo y desarrollo): (40 % en DIW)
-- Diseño de interfaz de usuario (UI): Define el diseño de tu sitio o aplicación web. El sitio web debe presentar un diseño de calidad, coherente con el sito web desarrollado.
+- **Diseño de interfaz de usuario** (UI): Define el diseño de tu sitio o aplicación web. El sitio web debe presentar un diseño de calidad, coherente con el sito web desarrollado.
 - Estilos CSS: Crea estilos CSS para dar formato y diseño a tu interfaz de usuario.
 - Responsive Design: Asegúrate de que tu diseño sea respondido y se adapte a diferentes tamaños de pantalla.
 - Número de Pantallas: Diseña al menos 3 pantallas diferentes que representen secciones o vistas clave de su interfaz.
