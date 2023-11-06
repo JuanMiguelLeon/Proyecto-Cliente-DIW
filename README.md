@@ -8,7 +8,7 @@
 - [Funcionalidad JavaScript (40 % en DWEC)](#Funcionalidad-Javascript)
 - [Memoria (40 %)](#Memoria)
 - [Fases del proyecto](#Fases-del-proyecto)
-- [Defensa del proyecto(20 %)](#Defensa-del-proyecto-(20%))
+- [Defensa del proyecto (20 %)](#Defensa-del-proyecto-(20%):)
 
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
