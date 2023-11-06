@@ -22,7 +22,7 @@
 2. Documenta el código, incluyendo comentarios para que otros desarrolladores puedan entenderlo.  
 - Pregunta : **¿Basta con el código js o tengo que comentar todo HTML y CSS?**
   - Respuesta: *Empy*
-3. Funcionalidad
+3. Funcionalidad en general (este punto no "existe")
 - Pregunta : **¿El login debe hacer un autentico login? ¿Cuanta "funcionalidad" debe tener la página?**
   - Respuesta: *Empy*  
 ### Fases del proyecto  
