@@ -7,4 +7,4 @@
 2. Propuesta de Contenido: Incorporación de interacciones de usuario para la alteración del estilo
 
 
-![texto cualquiera por si no carga la imagen](https://cdn.iconscout.com/icon/premium/png-256-thumb/online-check-4401422-3648119.png?f=webp)
+(https://cdn.iconscout.com/icon/premium/png-256-thumb/online-check-4401422-3648119.png?f=webp)
