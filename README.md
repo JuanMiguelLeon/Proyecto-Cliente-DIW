@@ -103,4 +103,5 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 4. Justificación: Explica por qué es importante abordar este proyecto. ¿Cuál es la necesidad o el problema que se está resolviendo?
 5. Descripción del Proyecto: Describe el proyecto en detalle, incluyendo su alcance, funcionalidades y características clave.
 6. Fases del proyecto: en este apartado se concretarán las fases necesarias para llevarlo a cabo, y cumplir con los objetivos que se establezcan, teniendo en cuenta los recursos necesarios.
+7.1. hola 
 6.1 Fases del proyecto. El desarrollo de este proyecto se llevará a cabo en 3 fases: análisis, diseño e implementación. Se describirá el proceso realizado en cada fase, así como los tiempos estimados y los tiempos reales.
