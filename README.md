@@ -44,6 +44,6 @@
   - Un fichero pdf con la memoria
   - Los ficheros .pdf con los wireframe
 - Es imprescindible obtener más de un 5 cada una de la partes del proyecto (Proyecto (40%) + Memoria (40%) + Defensa (20%)) para poder hacer media con el resto de secciones del proyecto.
-- ** Se debe explicar todo el proceso en la memoria, justificando conveniente cada decisión tomada. Las memorias que solo utilicen imágenes o código, o carezcan de suficiente justificación serán consideradas suspendidas, y por lo tanto, el 
+- ** Se debe explicar todo el proceso en la memoria, justificando conveniente cada decisión tomada. Las memorias que solo utilicen imágenes o código, o carezcan de suficiente justificación serán consideradas suspendidas, y por lo tanto, el** 
 proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad tanto en el diseño, funcionalidad y contenido.**
 
