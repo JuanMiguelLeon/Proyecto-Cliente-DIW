@@ -47,3 +47,39 @@
 - Se debe explicar todo el proceso en la memoria, justificando conveniente cada decisión tomada. Las memorias que solo utilicen imágenes o código, o carezcan de suficiente justificación serán consideradas suspendidas, y por lo tanto, el 
 proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad tanto en el diseño, funcionalidad y contenido.**
 
+### Objetivos del Proyecto - (En memoria de trabajo):
+- Define claramente el propósito y los objetivos del proyecto. ¿Qué problema o necesidad está resolviendo tu proyecto? ¿Cuál es la audiencia objetivo?
+- Elija un tema o concepto específico para el diseño del prototipo.
+- Defina claramente el público objetivo al que se dirige el diseño.
+
+### Wireframe - (En memoria de trabajo):
+- Número de Páginas o Pantallas: Crea al menos 3 wireframes que representen diferentes páginas o pantallas de la interfaz. Opcional: se puede incluir un prototipo visual completo del sitio.
+- Contenido Mínimo: Incluye elementos esenciales en cada wireframe, como encabezados, navegación, contenido principal y pies de página, según corresponda.
+- Diseño y Estilo: Usa una paleta de colores adecuada al tema y al público objetivo. Aplique un estilo sencillo y consistente en los elementos de la interfaz, evitando detalles de diseño excesivos.
+- Organización de Contenido: Muestra cómo se organiza y se dispone el contenido en cada pantalla. Utilice cajas o áreas para representar bloques de contenido.
+- Navegación: Indica la navegación entre las diferentes páginas o pantallas.
+
+### Guía de color y estilos (En memoria de trabajo):
+- Paleta de Colores: Selecciona una paleta de colores que sea apropiada para el tema y el público objetivo de su proyecto. Explica su elección y añade las alternativas de color sobre las que habéis decidido.
+- Fuentes Tipográficas: Elige la fuente tipográfica que se utilizará en el proyecto. Puede ser más de una, justifica la elección.
+- Muestra de Estilos: En la memoria añade ejemplos sobre cómo se aplican los colores y las fuentes en el proyecto. Muestra cómo se verán encabezados, párrafos, botones, enlaces...
+- Estilo de Botones y Enlaces: Describe el diseño de botones, enlaces, y todo aquel elemento que siga un patrón común al diseño del sitio.
+- Navegación: Describe cómo se aplicará la guía de color y tipografía en la navegación, incluyendo menús y barras de navegación...
+
+### Diseño y UI (En memoria de trabajo y desarrollo): (40 % en DIW)
+- Diseño de interfaz de usuario (UI): Define el diseño de tu sitio o aplicación web. El sitio web debe presentar un diseño de calidad, coherente con el sito web desarrollado.
+- Estilos CSS: Crea estilos CSS para dar formato y diseño a tu interfaz de usuario.
+- Responsive Design: Asegúrate de que tu diseño sea respondido y se adapte a diferentes tamaños de pantalla.
+- Número de Pantallas: Diseña al menos 3 pantallas diferentes que representen secciones o vistas clave de su interfaz.
+- Uso de CSS Grid, Flexbox o Framework: Puedes usar las siguientes tecnologías de diseño, CSS Grid, Flexbox o un framework como Bootstrap, Foundation, Materialize, etc.
+- Propuesta de Contenido:
+  - Incluya elementos esenciales en cada pantalla, como encabezados, navegación, contenido principal y pies de página, según corresponda. En el caso de no incluirse deberá justificarse en la memoria del trabajo.
+  - Incorporación de interacciones de usuario para la alteración del estilo
+ 
+### Funcionalidad JavaScript (40 % en DWEC):
+- Interacción del usuario: Especifica qué interacciones y características se implementarán utilizando JavaScript.
+- Lógica de la aplicación: Describe la lógica subyacente de tu aplicación o sitio web. Incorpora a la memoria diagramas de uso para describir la lógica del diseño.
+- Validación de formularios: Incluye al menos un formulario y realiza la validación de los valores a enviar.
+- Documenta el código, incluyendo comentarios para que otros desarrolladores puedan entenderlo.
+- Páginas mínimas (3): Página central, Sobre ti (nosotros, contacto), página secundaria, por ejemplo.
+- Requisitos de implementación: Se utilizarán eventos y DOM. En la memoria justificativa se deberá explicar de forma adecuada el uso de este tipo de elementos. Se deben utilizar al menos los siguientes ítem:
