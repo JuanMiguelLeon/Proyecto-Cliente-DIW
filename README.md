@@ -2,6 +2,13 @@
 
 - [Requisitos de la práctica](#Requisitos-de-la-práctica)
 - [Objetivos del Proyecto](#Objetivos-del-Proyecto)
+- [Wireframe](#wireframe)
+- [Guia de color y estilos](#Guia-de-color-y-estilos)
+- [Diseño y UI (40 % en DIW)](#Diseño-y-UI)
+- [Funcionalidad JavaScript (40 % en DWEC)](#Funcionalidad-Javascript)
+- [Memoria (40 %)](#Memoria)
+- [Fases del proyecto](#Fases-del-proyecto)
+- [Defensa del proyecto(20 %)](#Defensa-del-proyecto)
 
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
