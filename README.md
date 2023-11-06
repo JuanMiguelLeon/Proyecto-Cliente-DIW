@@ -33,7 +33,7 @@
 
 ## Requisitos de la práctica
 ### General
--El desarrollo de este proyecto permitirá poner en práctica tanto el contenido del 
+- El desarrollo de este proyecto permitirá poner en práctica tanto el contenido del 
 módulo Desarrollo Web Entorno Cliente (en adelante, DWEC), como el de Diseño 
 de Interfaces Web (en adelante, DIW), por lo que se evaluarán en base a cada 
 uno de los módulos, pudiendo obtenerse 2 calificaciones distintas. La parte 
