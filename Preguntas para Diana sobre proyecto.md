@@ -21,7 +21,11 @@
   - Respuesta: *Empy*  
 2. Documenta el código, incluyendo comentarios para que otros desarrolladores puedan entenderlo.  
 - Pregunta : **¿Basta con el código js o tengo que comentar todo HTML y CSS?**
+  - Respuesta: *Empy*
+3. Funcionalidad
+- Pregunta : **¿El login debe hacer un autentico login? ¿Cuanta "funcionalidad" debe tener la página?**
   - Respuesta: *Empy*  
 ### Fases del proyecto  
 Pregunta: **¿Donde incluirlas? ¿Al final? ¿Algunas partes no han sido explicadas previamente?**  
+  - Respuesta: *Empy*  
  
