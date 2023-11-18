@@ -1,0 +1,19 @@
+@font-face {
+    font-family: empy;
+    src: url(./ruta/nombreArchivo.woff2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+:root {
+    --primary__blue: #3498db;
+    --primary__green: #2ecc71;
+    --primary__white:#ffffff;
+    --secondary_grey:#aaaaaa;
+    --tertiary__yellow:#f1c40f;
+    --tertiary__orange:#e67e22;
+}
