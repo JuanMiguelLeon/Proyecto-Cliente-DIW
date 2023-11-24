@@ -51,7 +51,7 @@
 - El desarrollo de este proyecto permitirá poner en práctica tanto el contenido del módulo Desarrollo Web Entorno Cliente (en adelante, DWEC), como el de Diseño de Interfaces Web (en adelante, DIW), por lo que se evaluarán en base a cada uno de los módulos, pudiendo obtenerse 2 calificaciones distintas. La parte relativa a la funcionalidad corresponde con DWEC, mientras que la parte relativa al diseño a DIW.
 - Existen secciones comunes a ambas calificaciones, como los obje0vos y el wireframe. El resto de la calificación corresponde a la parte específica por módulo.
 - El proyecto puede realizarse de forma individual o por parejas. Los grupos e integrantes deben comunicar la formación final de su grupo por correo electrónico a dgarciamiguel@educa.madrid.org antes del 4 de noviembre de 2023.
-- Fecha máxima de subida a la plataforma (se entregará una copia en cada módulo): 29 de noviembre a las 17:50
+- Fecha máxima de subida a la plataforma (se entregará una copia en cada módulo): 1 de diciembre a las 19:00
 - Las defensas sería los días 30 de noviembre, 1, 4 y 5 de diciembre. El reparto se realizará por sorteo.
 - Durante la defensa del proyecto se podrán hacer preguntas a cada uno de los integrantes para comprobar la implicación de todos en el trabajo. Por lo tanto, se podrían obtener calificaciones diferentes entre los miembros del equipo.
 - Entregables:
@@ -137,5 +137,5 @@ proyecto en su conjunto. El sitio web debe ser presentar calidad y originalidad 
 
 ### Defensa del proyecto (20%):
 1. Formato: Diapositivas, presentación en Canvas, o cualquier otra herramienta previa consulta y verificación por correo electrónico a la profesora del módulo.
-2. Tiempo: 25 minutos.
+2. Tiempo: 15 minutos.
 3. Se debe explicar el desarrollo realizado y una síntesis de la memoria del proyecto.
