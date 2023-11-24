@@ -52,7 +52,7 @@
 - Existen secciones comunes a ambas calificaciones, como los obje0vos y el wireframe. El resto de la calificación corresponde a la parte específica por módulo.
 - El proyecto puede realizarse de forma individual o por parejas. Los grupos e integrantes deben comunicar la formación final de su grupo por correo electrónico a dgarciamiguel@educa.madrid.org antes del 4 de noviembre de 2023.
 - Fecha máxima de subida a la plataforma (se entregará una copia en cada módulo): 1 de diciembre a las 19:00
-- Las defensas sería los días 30 de noviembre, 1, 4 y 5 de diciembre. El reparto se realizará por sorteo.
+- Las defensas sería los días 1, 4 y 5 de diciembre. El reparto se realizará por sorteo.
 - Durante la defensa del proyecto se podrán hacer preguntas a cada uno de los integrantes para comprobar la implicación de todos en el trabajo. Por lo tanto, se podrían obtener calificaciones diferentes entre los miembros del equipo.
 - Entregables:
   - Un fichero .zip con todo el contenido del desarrollo (html, css, js)
