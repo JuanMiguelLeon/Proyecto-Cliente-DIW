@@ -16,6 +16,8 @@
 
 ## Página de crowdfunding para proyectos creativos **ArtistGo**
 
+- Parte de la funcionalidad y el contenido de la página no han sido implementadas o desarrolladas, ya sea por desconocimiento desde la postura back-end o por tiempo limitado. A lo largo de 2024 se desarrollarán cada una de ellas según el desarrollador adquiera más conocimientos del ámbito correspondiente.
+
 - Página de inicio: La página de inicio debe presentar una descripción general de la plataforma, destacar proyectos destacados o populares, y proporcionar una llamada a la acción para que los visitantes exploren proyectos o se registren.  
 
 - Registro y autenticación de usuarios: Debe haber un proceso de registro de usuarios que incluya la creación de cuentas con nombres de usuario y contraseñas, o la opción de registrarse a través de redes sociales. También se debe permitir que los usuarios inician sesión en sus cuentas existentes.  
