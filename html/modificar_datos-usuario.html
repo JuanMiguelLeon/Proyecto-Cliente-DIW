@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta content="Content-Type: text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/media/img/favicon.ico">
+    <title>Modificar usuario - ArtistGo</title>
+    <link rel="stylesheet" href="../styles/general-styles.css">
+    <link rel="stylesheet" href="../styles/modificar-usuario.css">
+    <script src="../scripts/modificar-usuario.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <a href="../index.html">
+            <img src="../assets/media/img/art-studio-logo-template-213d86.png" class="logotipo" alt="logotipo">
+        </a>
+        <nav class="navegador">
+            <ul class="navegador__lista">
+                <li class="navegador__item">
+                    <a href="../index.html">Pagina principal</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">Sobre ArtistGo</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-modificar-usuario">
+            <div class="contenedor-modificar">
+                <h1 class="contenedor-modificar__titulo">Modificar datos de usuario</h1>
+
+                <form action="" id="formulario-usuario">
+                    <div class="formulario-contenedores-inputs">
+                        <div class="divs-inputs">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre">
+                            <p class="texto-error" id="nombre__error"></p>
+                        </div>
+                        <div class="divs-inputs">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos">
+                            <p class="texto-error" id="apellidos__error"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="formulario-contenedores-inputs">
+                        <div class="divs-inputs">
+                            <label for="ciudad">Ciudad</label>
+                            <input type="text" id="ciudad">
+                            <p class="texto-error" id="ciudad__error"></p>
+                        </div>
+                        <div class="divs-inputs">
+                            <label for="pais">País</label>
+                            <select name="seleccion" id="pais">
+                                <option value="pais" selected disabled hidden>Eliga un pais </option>
+                                <option value="España" >España</option>
+                                <option value="Portugal">Portugal</option>
+                            </select>
+                            <p class="texto-error" id="pais__error"></p>
+                        </div>
+                    </div>
+                    <div class="formulario-contenedor-imagen">
+                        <label for="input-imagen">Arrastra o selecciona una imagen</label>
+                        <input type="file" id="input-imagen" accept="image/jpeg, image/jpg">
+                        <img id="imagen-previa" alt="Vista previa de la imagen">
+                    </div>
+                    <!-- <div class="contenedor-usuario-guardar">
+                        <input type="submit" value="Guardar">
+                    </div> -->
+                </form>
+                
+                
+            </div>
+            
+        </div>
+
+        <div class="contenedor-pago">
+            <div class="contenedor-datos-pago">
+                <h1 class="contenedor--datos-pago__titulo">Modificar datos de pago</h1>
+                <form action="" class="formulario-pago">
+                    <div class="formulario-pago__contenedor">
+                        <div class="formulario-pago__contenedor-izquierdo">
+                            <div class="formulario-pago__contenedor__datos-pago">
+                                <label for="nombre-tarjeta">Propietario de la tarjeta</label>
+                                <input type="text" placeholder="Propietario de la tarjeta" id="nombre-tarjeta">
+                            </div>
+                            <div class="formulario-pago__contenedor__datos-pago">
+                                <label for="numero-tarjeta">Número de tarjeta</label>
+                                <input type="text" id="numero-tarjeta">
+                            </div>
+                        </div>
+                        <div class="formulario-pago__contenedor-derecho">
+                            <div class="formulario-pago__contenedor__datos-pago">
+                                <label for="fecha-tarjeta">Expira</label>
+                                <input type="date" id="fecha-tarjeta" style="width: 100%;">
+                            </div>
+                            <div class="formulario-pago__contenedor__datos-pago">
+                                <label for="cvc-tarjeta">CVC (3 caracteres)</label>
+                                <input minlength="3" maxlength="3" type="password" id="cvc-tarjeta">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="contenedor-botones">
+            <a href="./perfil_usuario.html">Volver sin cambios</a>
+            <button onclick="guardarCambios()">Guardar cambios</button>
+        </div>
+    </main>
+
+
+    
+    <footer class="pie-pagina">
+        <p>&#169; 2023 Crowfunding. All Rights Reserved.</p>
+        <div class="pie-pagina__enlaces">
+            <ul>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./politicas_terminos.html">Información Legal</a>
+                </li>
+                <li>
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">GitHub del proyecto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie-pagina__redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../assets/media/img/footer_facebook.png" alt="RRSS-Facebook" >
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="../assets/media/img/footer_twitter.png" alt="RRSS-Twitter" >
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../assets/media/img/footer_instagram.png" alt="RRSS-Instagram" >
+            </a>
+            <a href="https://es.linkedin.com" target="_blank">
+                <img src="../assets/media/img/footer_linkedin.png" alt="RRSS-Linkedin" >
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

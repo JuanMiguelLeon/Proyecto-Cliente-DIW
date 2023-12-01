@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta content="Content-Type: text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/media/img/favicon.ico">
+    <title>Login ArtistGo</title>
+    <link rel="stylesheet" href="../styles/general-styles.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="../scripts/login.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <a href="../index.html">
+            <img src="../assets/media/img/art-studio-logo-template-213d86.png" class="logotipo" alt="logotipo">
+        </a>
+        <nav class="navegador">
+            <ul class="navegador__lista">
+                <li class="navegador__item">
+                    <a href="../index.html">Pagina principal</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">Sobre ArtistGo</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor-principal-login">
+            <div class="contenedor-formulario">
+                <h1 class="contenedor-formulario__titulo">Inicio de sesión</h1>
+
+                <div class="contenedor-formulario__nombre">
+                    <label for="usuario">E-mail o nombre de usuario</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input" type="text" id="usuario" placeholder="Introduzca su nombre de usuario o E-mail">
+                    </div>
+                </div>
+
+                <div class="contenedor-formulario__contrasenia">
+                    <label for="contrasenia">Contraseña</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input" type="password" id="contrasenia" placeholder="Introduzca su contraseña">
+                    </div>
+                </div>
+                
+                <div class="contenedor-formulario__check">
+                    <span>
+                        <input type="checkbox" id="check_recuerdame">
+                        <label for="check_recuerdame">Recuerdame</label>
+                    </span>
+                    <a href="#" class="login__enlaces" onclick="recuperarContrasenia()">¿Olvidó la contraseña?</a>
+                </div>
+
+                <div class="contenedor-formulario__captcha">
+                    <span>
+                        <input type="checkbox" id="check_captcha">
+                        <label for="check_captcha">I'm not a robot</label>
+                    </span>
+                    <img src="../assets/media/img/captcha.png" alt="logoCaptcha">
+                </div>
+                <div class="contenedor-formulario__fallo">
+                    <p id="fallo-mensaje"></p>
+                </div>
+
+                <button class="contenedor-formulario__boton-login" onclick="iniciarSesion()">Iniciar sesión</button>
+
+                <span class="contenedor-formulario__crear-cuenta">¿No tienes una cuenta? 
+                    <a href="#" class="login__enlaces" onclick="crearCuenta()">Crear cuenta</a>
+                </span>
+                
+                <div class="contenedor-formulario__opcion-login">
+                    <div class="contenedor-formulario__linea-gradient"></div>
+                    <span>O puedes iniciar sesion con:</span>
+                    <div class="contenedor-formulario__opciones">
+                        <a class="contenedor-formulario__opcion-login--google" href="./perfil_usuario.html">
+                            <img src="../assets/media/img/google.png" alt="Google">
+                            <span class="google">Login with Google Account</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="./politicas_terminos.html" class="login__enlaces enlace-politicas">Políticas de privacidad, términos y condiciones de uso</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- !BLOQUE RECUPERAR CONTRASEÑA -->
+
+        <div class="contenedor-secundario-contrasenia">
+            <div class="contenedor-contrasenia">
+                <h1 class="contenedor-contrasenia__titulo">Recuperación de contraseña</h1>
+                <div class="contenedor-contrasenia__contenedor-recuperar">
+                    <p class="contenedor-contrasenia__mensaje">Introduzca el correo electrónico de su cuenta para recibir un correo de recuperación.</p>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input formulario__contrasenia" type="text" id="recuperar-contrasenia" placeholder="Introduzca su E-mail">
+                    </div>
+                    <p id="correo-error"></p>
+                </div>
+                <button class="contenedor-contrasenia__boton-recuperar">Recuperar contraseña</button>
+               
+            </div>
+        </div>
+
+        <!-- !BLOQUE CREAR CUENTA -->
+
+        <div class="contenedor-secundario-crear-cuenta">
+            <div class="contenedor-crear-cuenta">
+                <h1 class="contenedor-crear-cuenta__titulo">Crear una cuenta</h1>
+
+                <div class="contenedor-formulario__nombre contenedor-crear-cuenta__nombre">
+                    <label for="crear-usuario">Nombre de usuario</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input formulario__crear-cuenta" type="text" id="crear-usuario" placeholder="Introduzca un nombre de usuario">
+                    </div>
+                    <p id="error-crear-cuenta__nombre"  class="error-crear-cuenta">Nombre invalido. Al menos, dos caracteres</p>
+                </div>
+
+                <div class="contenedor-formulario__nombre contenedor-crear-cuenta__email">
+                    <label for="email">Email</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input formulario__crear-cuenta" type="text" id="crear-email" placeholder="Introduzca un E-mail">
+                    </div>
+                    <p id="error-crear-cuenta__email"  class="error-crear-cuenta">Correo invalido.</p>
+                </div>
+
+                <div class="contenedor-formulario__contrasenia contenedor-crear-cuenta__contrasenia">
+                    <label for="contrasenia">Contraseña</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input formulario__crear-cuenta" type="password" id="crear-contrasenia-uno" placeholder="Introduzca su contraseña">
+                    </div>
+                    <p id="error-crear-cuenta__contrasenia" class="error-crear-cuenta">Ambas contraseñas deben coincidir.</p>
+                </div>
+                <div class="contenedor-formulario__contrasenia contenedor-crear-cuenta__contrasenia">
+                    <label for="contrasenia">Verificar contraseña</label>
+                    <div class="contenedor-input--gradient">
+                        <input class="formulario__input formulario__crear-cuenta" type="password" id="crear-contrasenia-dos" placeholder="Repita la contraseña">
+                    </div>
+                </div>
+                
+                <div class="contenedor-formulario__check contenedor-crear-cuenta__check-terminos">
+                    <span>
+                        <input type="checkbox" id="crear-check_terminos">
+                        <label for="check_terminos">He leido y acepto los términos y condiciones</label>
+                    </span>
+                </div>
+
+                <div>
+                    <a href="./politicas_terminos.html" class="login__enlaces enlace-politicas">Políticas de privacidad, términos y condiciones de uso</a>
+                </div>
+
+                <button class="contenedor-formulario__boton-login contenedor-formulario__boton-crear-cuenta" onclick="cuentaCreadaExito()">Crear cuenta</button>
+
+            </div>
+        </div>
+
+        <!-- !BLOQUE CUENTA CREADA CON EXITO -->
+        <div class="contenedor-secundario-cuenta-creada">
+            <div class="contenedor-cuenta-creada">
+                <h1 class="contenedor-cuenta-creada__titulo">Cuenta creada</h1>
+                <div class="contenedor-cuenta-creada__textos">
+                    <p>¡Felicidades!</p>
+                    <p>La cuenta ha sido creada correctamente.</p>
+                </div>
+                <div class="contenedor-cuenta-creada__textos">
+                    <p>¡Puedes empezar por revisar algunos de los proyectos en la web o ir a tu perfil!</p>
+                </div>
+                <div class="contenedor-cuenta-creada__botones">
+                    <a href="./main_proyectos.html" class="contenedor-contrasenia__boton-proyectos cuenta-creada__botones">Ir a los proyectos</a>
+                    <a href="./perfil_usuario.html" class="contenedor-contrasenia__boton-perfil cuenta-creada__botones">Ir a mi perfil</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&#169; 2023 Crowfunding. All Rights Reserved.</p>
+        <div class="pie-pagina__enlaces">
+            <ul>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./politicas_terminos.html">Información Legal</a>
+                </li>
+                <li>
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">GitHub del proyecto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie-pagina__redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../assets/media/img/footer_facebook.png" alt="RRSS-Facebook" >
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="../assets/media/img/footer_twitter.png" alt="RRSS-Twitter" >
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../assets/media/img/footer_instagram.png" alt="RRSS-Instagram" >
+            </a>
+            <a href="https://es.linkedin.com" target="_blank">
+                <img src="../assets/media/img/footer_linkedin.png" alt="RRSS-Linkedin" >
+            </a>
+        </div>
+    </footer>
+
+</body>

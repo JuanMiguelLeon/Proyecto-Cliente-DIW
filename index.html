@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/media/img/favicon.ico">
+    <title>Página principal ArtistGo</title>
+    <link rel="stylesheet" href="./styles/general-styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <a href="./">
+            <img src="./assets/media/img/art-studio-logo-template-213d86.png" class="logotipo" alt="Falta logo">
+        </a>
+        <nav class="navegador">
+            <ul class="navegador__lista">
+                <li class="navegador__item iniciar-sesion" id="iniciar-sesion">
+                    <a href="./html/login.html">Iniciar sesión</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">Sobre ArtistGo</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="./html/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="contenedor-principal no-parallax">
+            <h1 class="contenedor-principal__titulo">Bienvenid@ a ArtistGo</h1>
+            
+            <div class="contenedor-principal__imagenes">
+                <div class="galeria">
+                    <button class="galeria-botones prev">&#8249;</button>
+                    <button class="galeria-botones next">&#8250;</button>
+                    <ul>
+                        <li class="capa" id="capaMostrada">
+                            <img src="https://concepto.de/wp-content/uploads/2018/02/artes-plasticas-cuadro-min-e1519328313204-800x432.jpg" alt="Imagen galeria 1">
+                        </li>
+                        <li class="capa">
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/01/81/99/1000_F_101819922_x7nVcQpPi02xL27xGg0ILvXDn5uGdpBR.jpg" alt="Imagen galeria 2">
+                        </li>
+                        <li class="capa">
+                            <img src="https://static01.nyt.com/images/2023/05/30/well/30WELL-ART-BRAIN-esp/30WELL-ART-BRAIN-superJumbo.jpg" alt="Imagen galeria 3">
+                        </li>
+                    </ul>
+                    <h1 class="galeria-texto">Participa en la revolución creativa. Conviértete en un mecenas y haz que las ideas artísticas más innovadoras cobren vida con ArtistGo.</h1>
+                </div>
+            </div>
+
+            <div class="contenedor-principal__cta">
+                <div class="cta__izquierdo">
+                    <div class="cta__izquierdo__texto">
+                        <h2>¿Tienes una idea?</h2>
+                        <p>¡Comienza un proyecto propio!</p>
+                    </div>
+                    <div class="cta__izquierdo__containBoton">
+                        <button>Empezar</button>
+                    </div>oon__tree
+                </div>
+                <div class="cta__derecho">
+                    <p class="cta__derecho__texto">Explorar proyectos</p>
+                    <input id="buscador" type="text">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contenedor-secundario parallax">
+        
+            <div class="contenedor-secundario__boxes">
+                <div class="contenedor-secundario__caja">
+                    <p class="caja__titulos">Como funciona ArtistGo</p>
+                    <p class="caja__textos">Si estas interesado en saber más sobre ArtistGo</p>
+                    <img src="./assets/media/img/moonescape.jpg" alt="sin imagen" class="caja__imagenes">
+                </div>
+                <div class="contenedor-secundario__caja">
+                    <p class="caja__titulos">Testimonios</p>
+                    <p class="caja__textos">Work in progress</p>
+                    <img src="./assets/media/img/moon__tree.jpg" alt="sin imagen" class="caja__imagenes">
+                </div>
+                <div class="contenedor-secundario__caja">
+                    <p class="caja__titulos">Destacados</p>
+                    <p class="caja__textos">Aquí mostramos los proyectos más visitados o con mayor interes</p>
+                    <img src="./assets/media/img/cute_imagen.jpg" alt="sin imagen" class="caja__imagenes">
+                </div>
+            </div>
+
+            <h1>Proyectos Exitosos</h1>
+            <div class="contenedor-secundario__proyectos">
+                <div class="proyectos__izquierda">
+                    <h3 class="proyectos__izquierda__textos">Descripcion del proyecto</h3>
+                    <p class="proyectos__izquierda__subtextos">Proyecto de arte personal creado por María González, una artista apasionada con la visión de explorar la conexión entre la naturaleza y la esencia humana</p>
+                    <h3 class="proyectos__izquierda__textos">Objetivos</h3>
+                    <p class="proyectos__izquierda__subtextos">Alcanzar 1200$</p>
+                    <h3 class="proyectos__izquierda__textos">Crowfunding total reunido:</h3>
+                    <p class="proyectos__izquierda__subtextos">20.00$</p>
+                </div>
+                <div class="proyectos__linea"></div>
+                <div class="proyectos__derecha">
+                    <h2 class="proyectos__derecha__nombre-proyecto">Naturaleza perdida</h2>
+                    <img src="./assets/media/img/cute_imagen.jpg" alt="Falta imagen proyecto">
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor-terciario no-parallax">
+            <h1>Últimas actualizaciones</h1>
+            <div class="contenedor-terciario__actualizaciones">
+                <h2 class="actualizaciones__titulo">Tablón de actualizaciones</h2>
+                <div class="actualizaciones__contenedor-publicaciones">
+                    <p class="contenedor-publicaciones__bloque">¡Importante actualización de seguridad! Hemos mejorado las medidas de protección para garantizar la privacidad y seguridad de los usuarios.</p>
+                    <p class="contenedor-publicaciones__bloque">Proyecto nuevo: Se ha agregado un nuevo proyecto 'Ecos del tiempo'. Descubre cómo puedes apoyar esta obra maestra única.</p>
+                    <p class="contenedor-publicaciones__bloque">¡Éxito total! El proyecto 'Ritmo de Colores' ha alcanzado su objetivo de financiación. Gracias a nuestra increíble comunidad por hacerlo posible.</p>
+                    <p class="contenedor-publicaciones__bloque">Nuevo hito: Hemos superado los 1000 seguidores en nuestras redes sociales. ¡Gracias por ser parte de la familia ArtistGo!</p>
+                    <p class="contenedor-publicaciones__bloque">Proyecto destacado: 'Naturaleza perdida'. Únete a nosotros para impulsar la creación de una instalación de arte móvil en tu ciudad.</p>
+                    <p class="contenedor-publicaciones__bloque">Actualización de metas: Nos acercamos al 75% de financiación para 'Ritmo de Colores'. Cada contribución cuenta, ¡hagamos esto juntos!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="pie-pagina">
+            <p>&#169; 2023 Crowfunding. All Rights Reserved.</p>
+            <div class="pie-pagina__enlaces">
+                <ul>
+                    <li>
+                        <a href="./html/contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./html/politicas_terminos.html">Información Legal</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">GitHub del proyecto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pie-pagina__redes-sociales">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="./assets/media/img/footer_facebook.png" alt="RRSS-Facebook" >
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="./assets/media/img/footer_twitter.png" alt="RRSS-Twitter" >
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./assets/media/img/footer_instagram.png" alt="RRSS-Instagram" >
+                </a>
+                <a href="https://es.linkedin.com" target="_blank">
+                    <img src="./assets/media/img/footer_linkedin.png" alt="RRSS-Linkedin" >
+                </a>
+            </div>
+        </footer>
+        
+      </main>
+      
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta content="Content-Type: text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/media/img/favicon.ico">
+    <title>Perfil usuario - ArtistGo</title>
+    <link rel="stylesheet" href="../styles/general-styles.css">
+    <link rel="stylesheet" href="../styles/perfil-usuario.css">
+    <script src="../scripts/perfil-usuario.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <a href="../index.html">
+            <img src="../assets/media/img/art-studio-logo-template-213d86.png" class="logotipo" alt="logotipo">
+        </a>
+        <nav class="navegador">
+            <ul class="navegador__lista">
+                <li class="navegador__item">
+                    <a href="../index.html">Pagina principal</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">Sobre ArtistGo</a>
+                </li>
+                <li class="navegador__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="contenedor-principal-usuario">
+            <div class="contenedor-perfil">
+                <h1 class="contenedor-perfil__titulo">Perfil del usuario</h1>
+                
+                
+                <div class="contenedor-perfil__bloque-superior">
+                    <img src="../assets/media/img/imagen-usuario-default.png" alt="sin imagen de usuario">
+                    <p class="contenedor-perfil__campos">Usuario:</p>
+                    <p class="contenedor-perfil__datos">ArtistaDecente</p>
+                </div>
+                <div id="contenedor-perfil__boton">
+                    <a id="contenedor-perfil__boton-modificarDatos" href="./modificar_datos-usuario.html">Modificar datos</a>
+                </div>
+
+                <div class="contenedor-perfil__bloque-intermedio">
+                    <div class="bloque-intermedio__contenedores-datos">
+                        <div class="contenedores-datos">
+                            <p class="contenedor-perfil__campos">Nombre:</p>
+                            <p class="contenedor-perfil__datos" id="nombreUsuario"></p>
+                        </div>
+                        <div class="contenedores-datos">
+                            <p class="contenedor-perfil__campos">País:</p>
+                            <p class="contenedor-perfil__datos" id="paisUsuario"></p>
+                        </div>
+                    </div>
+                    <div class="bloque-intermedio__contenedores-datos">
+                        <div class="contenedores-datos">
+                            <p class="contenedor-perfil__campos">Apellidos:</p>
+                            <p class="contenedor-perfil__datos" id="apellidosUsuario"></p>
+                        </div>
+                        <div class="contenedores-datos">
+                            <p class="contenedor-perfil__campos">Ciudad:</p>
+                            <p class="contenedor-perfil__datos" id="ciudadUsuario"></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="contenedor-proyectos-creados">
+            <div class="proyectos-creados">
+                <h1>Proyectos creados</h1>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Naturaleza perdida</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">10.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad objetivo</p>
+                        <p class="proyecto__bloque-inferior">2500.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Estado del proyecto</p>
+                        <p class="proyecto__bloque-inferior estado-proyecto">Activo</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Nº patrocinadores</p>
+                        <p class="proyecto__bloque-inferior">2</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+        </div>
+
+        <div class="contenedor-proyectos-patrocinados">
+            <div class="proyectos-patrocinados">
+                <h1>Proyectos patrocinados</h1>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Naturaleza perdida</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">10.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad objetivo</p>
+                        <p class="proyecto__bloque-inferior">2500.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Estado del proyecto</p>
+                        <p class="proyecto__bloque-inferior estado-proyecto">Activo</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Ecos del Tiempo</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">1150.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad objetivo</p>
+                        <p class="proyecto__bloque-inferior">2000.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Estado del proyecto</p>
+                        <p class="proyecto__bloque-inferior estado-proyecto">Activo</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Ritmo de Colores</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">1200.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad objetivo</p>
+                        <p class="proyecto__bloque-inferior">1200.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Estado del proyecto</p>
+                        <p class="proyecto__bloque-inferior estado-proyecto">Completado</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Sueños Urbanos</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">20.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad objetivo</p>
+                        <p class="proyecto__bloque-inferior">60000.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Estado del proyecto</p>
+                        <p class="proyecto__bloque-inferior estado-proyecto">Abandonado</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+        <div class="contenedor-proyectos-ingresos">
+            <div class="proyectos-creados">
+                <h1>Ingresos de proyectos creados</h1>
+                <div class="proyecto">
+                    <div>
+                        <p class="proyecto__bloque-superior">Nombre</p>
+                        <p class="proyecto__bloque-inferior">Naturaleza perdida</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Cantidad aportada</p>
+                        <p class="proyecto__bloque-inferior">10.00$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Numero de cuenta</p>
+                        <p class="proyecto__bloque-inferior">**** **** **** 5560</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Ingresos</p>
+                        <p class="proyecto__bloque-inferior">9.50$</p>
+                    </div>
+                    <div>
+                        <p class="proyecto__bloque-superior">Página del proyecto</p>
+                        <p class="proyecto__bloque-inferior"><a href="#">Enlace al proyecto</a></p>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&#169; 2023 Crowfunding. All Rights Reserved.</p>
+        <div class="pie-pagina__enlaces">
+            <ul>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./politicas_terminos.html">Información Legal</a>
+                </li>
+                <li>
+                    <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">GitHub del proyecto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie-pagina__redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../assets/media/img/footer_facebook.png" alt="RRSS-Facebook" >
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="../assets/media/img/footer_twitter.png" alt="RRSS-Twitter" >
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../assets/media/img/footer_instagram.png" alt="RRSS-Instagram" >
+            </a>
+            <a href="https://es.linkedin.com" target="_blank">
+                <img src="../assets/media/img/footer_linkedin.png" alt="RRSS-Linkedin" >
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

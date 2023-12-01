@@ -1,0 +1,77 @@
+/* Estilos politicas y terminos  */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--primary__blue);
+    background-image: url(../assets/media/img/308999-P8AZAK-928.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-principal-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    border: 5px solid var(--secondary__dark);
+    margin: 10% auto;
+    border-radius: 20px;
+    background-color: var(--secondary__grey);
+    box-shadow: 2.5px -2.5px 15px black,
+    -2.5px -2.5px 15px black;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99.5%;
+    height: 100%;
+    background: var(--secondary__soft-white);
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.contenedor-formulario h1{
+    padding: 5px;
+    margin: 5px;
+    cursor: default;
+}
+
+.contenedor-formulario p{
+    padding: 5px;
+    margin: 5px;
+}
+
+/*? Estilos de barra desplazamiento general */
+.contenedor-formulario::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+.contenedor-formulario::-webkit-scrollbar-thumb {
+    background-color: var(--primary__green); /* Color del scroll */
+    border-radius: 15px; /* Bordes redondeados del scroll */
+}
+
+.contenedor-formulario::-webkit-scrollbar-track {
+
+    border-radius: 15px; /* Bordes redondeados de fondo de la barra de desplazamiento */
+}
+
+/*? Estilos de barra desplazamiento para navegadores basados en Firefox */
+.contenedor-formulario {
+    scrollbar-width: thin;
+    scrollbar-width: none;
+    scrollbar-color: var(--primary__blue);
+}
+
+.pie-pagina{
+    height: 10vh;
+}

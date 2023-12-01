@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta content="Content-Type: text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/media/img/favicon.ico">
+    <title>Contacto - ArtistGo</title>
+    <link rel="stylesheet" href="../styles/general-styles.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <script src="../scripts/contacto.js" defer></script>
+
+</head>
+<body>
+    
+<header class="cabecera">
+    <a href="../index.html">
+        <img src="../assets/media/img/art-studio-logo-template-213d86.png" class="logotipo" alt="logotipo">
+    </a>
+    <nav class="navegador">
+        <ul class="navegador__lista">
+            <li class="navegador__item">
+                <a href="../index.html">Pagina principal</a>
+            </li>
+            <li class="navegador__item">
+                <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">Sobre ArtistGo</a>
+            </li>
+            <li class="navegador__item">
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="contenedor-principal-contacto">
+        <div class="contenedor-formulario">
+            <h1 class="contenedor-formulario__titulo">Contacto</h1>
+            <form action="">
+                <div class="contenedor-input--gradient">
+                    <label for="correo">Email</label>
+                    <input type="email" id="correo">
+                </div>
+                <div class="contenedor-error">
+                    <p id="error-correo"></p>
+                </div>
+                <div class="contenedor-input--gradient">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="contenedor-error">
+                    <p id="nombre-error"></p>
+                </div>
+                <div class="contenedor-input__textarea">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="" id="mensaje" cols="22" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="motivo">Motivo</label>
+                    <select name="seleccion" id="motivo" >
+                        <option value="seleccionar" selected disabled hidden>Eliga un motivo</option>
+                        <optgroup label="Problemas técnicos">
+                            <option value="errores">Reportar errores en la plataforma</option>
+                            <option value="carga-rendimiento">Problemas de carga o rendimiento</option>
+                            <option value="problemas-contribucion-proyecto">Dificultades técnicas al realizar una contribución o crear un proyecto</option>
+                        </optgroup>
+                        <optgroup label="Preguntas sobre la plataforma">
+                            <option value="funcionamiento-plataforma">Funcionamiento de la plataforma</option>
+                            <option value="informacion-politicas-terminos">Información sobre políticas y términos de uso</option>
+                        </optgroup>
+                        <optgroup label="Asistencia en la creación de proyectos">
+                            <option value="ayuda-creacion-proyecto">Ayuda para entender cómo crear y configurar un proyecto de crowdfunding.</option>
+                            <option value="requisitos-">Preguntas sobre requisitos para lanzar un proyecto.</option>
+                        </optgroup>
+                        <optgroup label="Dudas sobre pagos">
+                            <option value="consultas-pagos">Ayuda para entender cómo crear y configurar un proyecto de crowdfunding.</option>
+                            <option value="requisitos-">Preguntas sobre requisitos para lanzar un proyecto.</option>
+                        </optgroup>
+                      </select>
+                </div>
+                <div class="contenedor-error">
+                    <p id="error-motivo"></p>
+                </div>
+                <div class="contenedor-formulario__botones">
+                    <input type="reset" value="Reiniciar formulario">
+                    <input type="submit" value="Enviar formulario">
+                </div>
+            </form>
+            <div class="mensaje-enviado">
+                <h2>Mensaje enviado con exito</h2>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="pie-pagina">
+    <p>&#169; 2023 Crowfunding. All Rights Reserved.</p>
+    <div class="pie-pagina__enlaces">
+        <ul>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+            <li>
+                <a href="./politicas_terminos.html">Información Legal</a>
+            </li>
+            <li>
+                <a href="https://github.com/JuanMiguelLeon/Proyecto-Cliente-DIW.git" target="_blank">GitHub del proyecto</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pie-pagina__redes-sociales">
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="../assets/media/img/footer_facebook.png" alt="RRSS-Facebook" >
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <img src="../assets/media/img/footer_twitter.png" alt="RRSS-Twitter" >
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../assets/media/img/footer_instagram.png" alt="RRSS-Instagram" >
+        </a>
+        <a href="https://es.linkedin.com" target="_blank">
+            <img src="../assets/media/img/footer_linkedin.png" alt="RRSS-Linkedin" >
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
+

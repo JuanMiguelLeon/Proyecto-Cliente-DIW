@@ -1,0 +1,211 @@
+/* Estilos main de los proyectos */
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--primary__blue);
+}
+
+.contenedor-principal-proyectos{
+    /* position:absolute;
+    top: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    border: 5px solid var(--secondary__dark);
+    border-radius: 20px;
+    background-color: var(--secondary__grey);
+    margin: 2vh;
+}
+
+.contenedor-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    width: 99.5%;
+    height: 100%;
+    background: var(--secondary__soft-white);
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+
+
+/*? Estilos de barra desplazamiento para navegadores basados en Firefox */
+.contenedor-proyectos {
+    scrollbar-width: thin;
+}
+
+
+  
+.contenedor-proyectos::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .contenedor-proyectos::-webkit-scrollbar-thumb {
+    background-color:red; /* Color del thumb (la barra móvil) */
+    border-radius: 10px; /* Bordes redondeados del thumb */
+  }
+  
+  .contenedor-proyectos::-webkit-scrollbar-track {
+    background-color: red; /* Color de fondo del track (la barra completa) */
+  }
+
+
+
+
+
+.contenedor-proyectos__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    cursor: default;
+    margin: 5px;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    border: 1px solid black;
+    height: 35%;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.proyecto__nombre{
+    width: 100%;
+    text-align: center;
+    background: var(--tertiary__yellow);
+    position: relative;
+    top: 0px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sunflower;
+    text-shadow: 1px 1px 1px white;
+}
+
+.proyecto__datos-superior{
+    display: flex;
+    height: 50%;
+    background-color: var(--primary__green);
+}
+
+.proyecto__datos-creador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: var(--secondary__soft-white);
+}
+
+.proyecto__datos-creador img{
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+
+.proyecto__datos-descripcion{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: cyan; */
+    overflow-y: scroll;
+}
+.proyecto__datos-descripcion p{
+    margin: 5px;
+    color: white;
+    text-shadow: 2.5px 2.5px 3px black;
+    font-family: sunflower;
+}
+
+.proyecto__datos-descripcion p:nth-child(2){
+    font-family: 'Poppins';
+    text-shadow: 1px 1px black
+}
+
+.proyecto__datos-inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 30px;
+    background-color: var(--primary__blue);
+}
+
+.proyecto__datos-inferior a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 10%;
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    color: var(--primary__white);
+    background: var(--primary__green);
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+.proyecto__datos-inferior a:hover{
+    box-shadow: 1px -1px 90px white,
+                1px 0px 1px black;
+    color: var(--tertiary__yellow);
+}
+
+.proyecto__datos-cantidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    width: 20%;
+    background: white;
+}
+
+.proyecto__datos-cantidad p{
+    color: var(--secondary__soft-white);
+    background: var(--secondary__dark);
+    width: 100%;
+    text-align: center;
+}
+
+.proyecto__datos-cantidad p:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+.estado-proyecto{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.pie-pagina{
+    height: 10vh;
+}
